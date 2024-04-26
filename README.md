@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Hi 👋, Для работы с Docker настроим Makefile для упрощения ввода команд.</h1>
 
-Currently, two official plugins are available:
+* Цель build: собирает Docker-образ с тегом rental-bot-client-search:volumes (с тегом volumes)
+```
+make build
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Цель app: запускает контейнер приложения в фоновом режиме с портом 8080 и удаляет контейнер после его остановки (чтение)
+```
+make app
+```
+* Цель run-dev: запускает контейнер для разработки с пробросом порта 8080 и работы в режиме dev-mode
+<hr>
+
+# Требуется прокинуть путь к директории для VOLUMES в Makefile. 
+
+
+```
+make run-dev
+```
+
