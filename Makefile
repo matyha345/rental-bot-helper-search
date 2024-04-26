@@ -16,7 +16,7 @@ start-app:
 
 # Цель run-dev: запускает контейнер для разработки с пробросом порта 8080 и работы в режиме dev-mode
 run-dev:
-	docker run -d -p 8080:8080 -v "/Users/nikolajmatuhin/Desktop/Rental-Bot-Helper":/app -v /app/node_modules --name rental-bot-client-dev rental-bot-client-search:volumes
+	docker run -d -p 8080:8080 -v "/Users/nikolajmatuhin/Desktop/build-search/Rental-Bot-Helper":/app -v /app/node_modules --name rental-bot-client-dev rental-bot-client-search:volumes
 
 # Цель stop-dev: останавливает контейнер для разработки rental-bot-client-dev
 stop-dev:
