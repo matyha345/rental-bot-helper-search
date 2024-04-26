@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[type='text']:focus {
+	--tw-ring-color: transparent !important;
+}
+
+
+/* CustomCheckbox */
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	background-color: #0f172a;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: 000000;
+	border: 0px solid #5046e5;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5046e5;
+	border: 1px solid #7e7e7e;
+	height: 100px;
+	border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: grey;
+}
+
+/* React-Select */
+
+
+/* Основные стили контрола */
+.css-13cymwt-control {
+	background-color: #fff !important;
+}
+
+/* Стили опций */
+.css-d7l1ni-option {
+	background-color: #5046e5 !important;
+}
+.css-10wo9uf-option {
+	color: black !important;
+	font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+
+}
+
+.css-d7l1ni-option {
+	color: #fff !important;
+	font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+}
+
+/* Стили выбранных значений */
+.react-select__multi-value {
+	background-color: #ffffff !important; /* Цвет фона маркера */
+}
+
+.css-1p3m7a8-multiValue {
+	background-color: #5046e5 !important;
+}
+
+/* Стили контрола при фокусе и наведении */
+.css-t3ipsp-control {
+	/* background-color: transparent !important; */
+	border-color: #5046e5 !important;
+	box-shadow: 0 0 0 1px #5046e5 !important;
+}
+
+.css-t3ipsp-control:hover {
+	border-color: #5046e5 !important;
+}
+.css-t3ipsp-control:focus {
+	border-color: #5046e5 !important;
+}
+
+/* Стили для текста плейсхолдера */
+.css-1jqq78o-placeholder {
+	color: #000 !important;
+	font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+}
+/* Стили для текста ввода */
+.css-feonkk-Input2 {
+	color: #000 !important;
+}
+.css-1cfo1cf {
+	color: #000 !important;
+}
+/* Стили для текста опций */
+.css-9jq23d {
+	color: white !important;
+	
+}
+/* Дополнительные стили для текста опций */
+.css-1y7rh0y-MultiValueGeneric2 {
+	color: white !important;
+}
+
+
+
+.emitted-checkbox{
+	background-color: #4F46E5;
+}
